@@ -1,43 +1,95 @@
+
 const cats = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendCat(catName) {
-    return cats.push(catName);
+function destructivelyAppendCat(name) {
+    cats.push(name);
 }
 
-function destructivelyPrependCat(catName) {
-    return cats.unshift(catName);
+function destructivelyPrependCat(name) {
+    cats.unshift(name);
 }
+
 
 function destructivelyRemoveLastCat() {
-    return cats.pop();
-}
-
-function destructivelyRemoveFirstCat() {
-    return cats.shift();
-}
-
-function appendCat(catName) {
-    const copyOfCats = [...cats];
-    copyOfCats.push(catName);
-    return copyOfCats;
+    cats.pop();
 }
 
 
-function prependCat(catName) {
-    const copyOfCats = [...cats];
-    copyOfCats.unshift(catName);
-    return copyOfCats;
-}
-
-function removeLastCat(catName) {
-    const copyOfCats = [...cats];
-    copyOfCats.pop(catName);
-    return copyOfCats;
-}
 
 
-function removeFirstCat(catName) {
-    const copyOfCats = [...cats];
-    copyOfCats.shift(catName);
-    return copyOfCats;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const cats = ["Milo", "Otis", "Garfield"];
+
+// function destructivelyAppendCat(catName) {
+//     return cats.push(catName);
+// }
+
+// function destructivelyPrependCat(catName) {
+//     return cats.unshift(catName);
+// }
+
+// function destructivelyRemoveLastCat() {
+//     return cats.pop();
+// }
+
+// function destructivelyRemoveFirstCat() {
+//     return cats.shift();
+// }
+
+// function appendCat(catName) {
+//     const copyOfCats = [...cats];
+//     copyOfCats.push(catName);
+//     return copyOfCats;
+// }
+
+
+// function prependCat(catName) {
+//     const copyOfCats = [...cats];
+//     copyOfCats.unshift(catName);
+//     return copyOfCats;
+// }
+
+// function removeLastCat(catName) {
+//     const copyOfCats = [...cats];
+//     copyOfCats.pop(catName);
+//     return copyOfCats;
+// }
+
+
+// function removeFirstCat(catName) {
+//     const copyOfCats = [...cats];
+//     copyOfCats.shift(catName);
+//     return copyOfCats;
+// }
